@@ -25,4 +25,4 @@
 
 - Throttle both it and its child processes so that none go about 25% CPU:
 
-`cpulimit --limit {{25}} --monitor-forks -- {{program}}`
+`cpulimit --limit {{25}} --include-children -- {{program}}`
